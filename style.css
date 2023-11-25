@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  font-family: "Montserrat", sans-serif;
+}
+:root {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+}
+.dark-theme {
+  --primary-color: #000106;
+  --secondary-color: #fff;
+}
+
+.main {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid blue; */
+  height: 100px;
+
+  list-style: none;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.class {
+  /* border: 2px solid red; */
+  background: var(--primary-color);
+  height: 100vh;
+  width: 100%;
+}
+.navbar li {
+  display: inline;
+  /* float: right; */
+  margin: 12px;
+}
+.navbar a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #ff520d;
+}
+.img {
+  position: relative;
+  left: 105px;
+}
+.mode {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  /* margin-left: 360px; */
+}
+.logo {
+  height: 77px;
+  width: 99px;
+  position: relative;
+  top: -7px;
+  left: -150px;
+}
+.container {
+  /* border: 2px solid blue; */
+  display: flex;
+  overflow: hidden;
+  padding: auto;
+}
+
+.heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+.one {
+  /* border: 2px solid red; */
+  color: var(--secondary-color);
+  width: 50%;
+  padding: 22px;
+}
+.two {
+  /* border: 2px solid yellow; */
+  background: #fff;
+  height: 80vh;
+  width: 350px;
+  margin: auto;
+  background: url(pexels-jeandaniel-francoeur-18698400.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.btn {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  height: 2rem;
+  width: 8rem;
+  border-radius: 0.5rem;
+}
